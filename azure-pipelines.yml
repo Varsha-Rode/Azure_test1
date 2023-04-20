@@ -10,7 +10,7 @@ jobs:
 
 - job: 'Test'
   pool:
-    vmImage: 'vs2017-win2019'
+    vmImage: 'vs2019-win2019'
   strategy:
     matrix:
       Python37:
