@@ -36,4 +36,6 @@ jobs:
       searchFolder: 'D:\a\1\s\'
       condition: succeededOrFailed()
       displayName: 'Publish Test Results outputxunit.xml'
-      exit:0
+    powershell: exit 0
+    displayName: 'Exit Pipeline'
+      
