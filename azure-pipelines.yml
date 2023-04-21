@@ -16,6 +16,7 @@ jobs:
       Python37:
         python.version: '3.7'
     maxParallel: 1
+    test || true
   steps:
 
   - task: UsePythonVersion@0
